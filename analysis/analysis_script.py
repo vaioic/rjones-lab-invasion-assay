@@ -1,8 +1,3 @@
-from shared import core_logic
+from shared import core
 
-
-def main():
-    print(core_logic.main())
-
-if __name__ == "__main__":
-    main()
+core.process_directory(r"../data/20x", r"../processed/2026-08-27")

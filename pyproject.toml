@@ -1,7 +1,7 @@
 [project]
-name = "template-analysis-uv"
+name = "rjones-lab-invasion-assay"
 version = "0.1.0"
-description = "Template for analysis projects using uv"
+description = "Pipeline to count nuclei in a cell invasion assay"
 readme = "README.md"
 requires-python = ">=3.13"
 license = "GPL-3.0-or-later"
@@ -11,7 +11,10 @@ dependencies = [
     "numpy",
     "scikit-image",
     "matplotlib",
-    "tifffile"
+    "tifffile",
+    "bioio>=3.5.0",
+    "bioio-czi>=2.9.0",
+    "oic-toolkit",
 ]
 
 [project.optional-dependencies]
@@ -27,3 +30,6 @@ build-backend = "uv_build"
 [tool.uv.build-backend]
 module-name = "shared"
 module-root = ""
+
+[tool.uv.sources]
+oic-toolkit = { path = "../../Toolboxes/oic-toolkit", editable = true }
