@@ -98,5 +98,8 @@ Please review the Acknowledgement and Authorship Guidelines on [VAI's Core Techn
 
 ## Changelog
 
-### v0.1.0 (2026-06-30)
-* Initial commit with preliminary code ([OIC-304](https://varioic.atlassian.net/browse/OIC-304))
+### v0.1.1 (2026-10-05)
+* Added estimate of number of cells for larger clumps ([OIC-372](https://varioic.atlassian.net/browse/OIC-372))
+
+### v0.1.0 (2026-08-27)
+* Initial commit with preliminary code ([OIC-372](https://varioic.atlassian.net/browse/OIC-372))
